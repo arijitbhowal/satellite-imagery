@@ -3,6 +3,17 @@
 This repository implements a pipeline for river segmentation using UNet-LSTM and includes a script to export Sentinel-2 NDWI masks and RGB + NIR imagery for a defined Area of Interest (AOI).
 
 ---
+## Guide
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Setup Training and Inference](#setup-training-and-inference)
+4. [Results](#results)
+5. [Links](#links)
+6. [Acknowledgments](#acknowledgments)
+---
+
+## Introduction
+This repository provides a full pipeline for river segmentation using a combination of UNet and LSTM networks. It also includes scripts to extract NDWI from Sentinel-2 imagery and generate necessary masks and image patches for training.
 
 ## Features
 
@@ -22,7 +33,7 @@ This repository implements a pipeline for river segmentation using UNet-LSTM and
    - Metrics evaluation and results visualization.
 ---
 
-## Installation
+## Setup Training and Inference
 
 ### 1. Clone the Repository
 ```bash
@@ -67,7 +78,7 @@ The `inf.py` script is used to perform inference using the trained UNet-LSTM mod
 python3 inf.py
 
 ```
-### 8. Results
+## Results
 ![Screenshot 2024-11-20 122241](https://github.com/user-attachments/assets/211bb20b-da4b-461e-911d-0635a88daa28)
 ![Screenshot 2024-11-20 122753](https://github.com/user-attachments/assets/cbc58fbe-c328-499a-87ec-5b1d53261949)
 ![Screenshot 2024-11-20 122831](https://github.com/user-attachments/assets/a1df1b8c-51b5-4675-98c7-acc8b432d3fa)
