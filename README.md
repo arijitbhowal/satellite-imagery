@@ -23,7 +23,7 @@ This repository provides a full pipeline for river segmentation using a combinat
    - Compute the Normalized Difference Water Index (NDWI)
    - Export NDWI binary masks and RGB + NIR images for each month over a specified time range.
    
-     ### Example Code
+     #### Example Code
      For hands-on implementation and further customization, you can refer to this [Google Earth Engine script](https://code.earthengine.google.com/3cce22b6f8ff4aa0aafe1fb496f98d71).
 
 2. **River Dataset Segmentation**:
