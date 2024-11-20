@@ -37,7 +37,7 @@ This repository provides a full pipeline for river segmentation using a combinat
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/UNet-LSTM-River-Dataset.git](https://github.com/arijitbhowal/satellite-imagery.git
+git clone https://github.com/arijitbhowal/satellite-imagery.git
 cd satellite-imagery
 ```
 ### 2. Install dependencies
